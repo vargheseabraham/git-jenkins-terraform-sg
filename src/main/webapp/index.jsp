@@ -19,10 +19,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">
-						<img src="img/hcl_logo.png" style="height:20px;"/>
-					</a>
+					</button>					
 				</div>
 			</div>
 		</nav>
@@ -41,7 +38,7 @@
 				<div class="col-md-4  col-xs-12 OrangeBorder" >
 					<div class="col-md-10 col-md-offset-1 col-xs-12">
 						<br>
-            <h5 class="Blue"><font class="Orange"><i class="glyphicon glyphicon-tasks"></i></font>&nbsp;Please Enter your Information</h5><hr>
+            					<h5 class="Blue"><font class="Orange"><i class="glyphicon glyphicon-tasks"></i></font>&nbsp;Please Enter your Information</h5><hr>
 						<form action="" name="login" id="login">
 							<input required type="text" name="username" id="username" class="form-control input-sm" placeholder="Enter HCL Username" data-toggle="tooltip" data-placement="left" title="Please enter your HCL username" name="username" id="username" autofocus/><br>
 							<input required type="password" name="password"  id="password" class="form-control input-sm" placeholder="Enter HCL Password"  data-toggle="tooltip" data-placement="left" title="Please enter your HCL password" name="password" id="password" autocomplete="off"/><br>
