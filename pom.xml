@@ -21,8 +21,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>Automation</finalName>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>  
+    <finalName>Automation</finalName> 
   </build>
 </project>
