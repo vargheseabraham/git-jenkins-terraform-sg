@@ -7,7 +7,7 @@
     <center>
       <table border="1" width="800">
         <tr><td>
-          <h3><u><center>NORAM Automation Team'19</center></u></h3>
+          <h3><u><center>NORAM Automation Initiative'19-20</center></u></h3>
           <h5><u><i>Digital Transformation:</i></u></h5> Digital Transformation is not necessarily about digital technology, but about the fact that technology, which is digital, allows people to solve their traditional problems. And they prefer this digital solution to the old solution.
           <h5><u><i>Infra Automation:</i></u></h5> Infrastructure automation is the process of scripting environments — from installing an operating system, to installing and configuring servers on instances, to configuring how the instances and software communicate with one another, and much more.
           <h5><u><i>Orchestration:</i></u></h5> Cloud orchestration is the use of programming technology to manage the interconnections and interactions among workloads on public and private cloud infrastructure.
