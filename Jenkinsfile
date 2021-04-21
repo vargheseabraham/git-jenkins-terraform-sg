@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage('fetch_latest_code'){
         steps{
-            git 'https://github.com/vargheseabraham/jenkins-terraform.git'
+            git 'https://github.com/vargheseabraham/git-jenkins-terra.git'
         }
       }
 
