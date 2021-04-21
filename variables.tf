@@ -9,11 +9,11 @@ variable "key_name" {
 
 variable "instance_type" {
   description = "AWS instance type"
-  default     = "t2.micro"
+  default     = "t3.small"
 }
 
 variable "ami" {
   description = "Base AMI to launch the instances"
 
-  default = "ami-03d64741867e7bb94"
+  default = "ami-021acbdb89706aa89"
 }
