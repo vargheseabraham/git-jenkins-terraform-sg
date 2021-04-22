@@ -1,12 +1,5 @@
 # Terraform state will be stored in S3
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.27"
-    }
-  }
-  
+terraform {  
   backend "s3" {
     bucket = "terraform-bucket-dev"
     key    = "terraform.tfstate"
@@ -18,18 +11,6 @@ terraform {
 provider "aws" {
   profile = "default"
   region = "us-east-2"
-}
-
-# Create EC2 instance
-resource "aws_instance" "default" {
-  ami                    = var.ami
-  vpc_security_group_ids = [aws_security_group.default.id]
-  source_dest_check      = false
-  instance_type          = var.instance_type
-
-  tags = {
-    Name = "terraform-default"
-  }
 }
 
 # Create Security Group for EC2
@@ -49,5 +30,4 @@ resource "aws_security_group" "default" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-
 }
